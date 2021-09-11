@@ -400,3 +400,32 @@ img {
     height: 100%;
 }
 
+/*MEDIA QUERIES | RESPONSIVE*/
+@media (max-width: 1100px){
+    .donate-info .donate-content{
+        text-align: center;
+    }
+    /*contact form - responsive*/
+    .container-contact .contact-form{
+        width: 100%;
+    }
+    .contact-form .contact-row{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container-contact .contact-form .contact-row .contact-column{
+        width: 100%;
+        margin: 15px;
+    }
+    /*gallery - responsive*/
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .gallery-container:nth-child(8){
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+}
+
