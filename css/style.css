@@ -170,7 +170,7 @@ main{
     font-size: 2em;
 }
 
-/*.container {
+.container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: 250px;
@@ -189,7 +189,7 @@ main{
 :nth-child(8){
     grid-column: span 2;
     grid-row: span 2;
-}*/
+}
 .container .gallery-item {
     width: 100%;
     height: 100%;
