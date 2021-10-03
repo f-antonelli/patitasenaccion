@@ -381,7 +381,7 @@ header.sticky {
   .toggle {
     width: 40px;
     height: 40px;
-    background: url(/images/index-img/menu.png);
+    background: url(../images/index-img/menu.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30px;
@@ -390,7 +390,7 @@ header.sticky {
   .toggle.active {
     width: 40px;
     height: 40px;
-    background: url(/images/index-img/close.png);
+    background: url(../images/index-img/close.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px;
