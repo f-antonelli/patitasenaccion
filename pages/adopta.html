@@ -11,18 +11,17 @@
 </head>
 <body>
     <header>
-        <nav class="nav-container">
-            <a href="../index.html" class="logo">
-                <img src="../images/index-img/logo.png">
-            </a>
-            <ul class="nav-ul">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="adopta.html">Adoptá</a></li>
-                <li><a href="dona.html">Donaciones</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <a href="../index.html">
+            <img class="logo" src="../images/index-img/logo.png" alt="logo">
+        </a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="adopta.html">Adoptá</a></li>
+            <li><a href="dona.html">Donaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </header>
 
     <main>
@@ -153,5 +152,6 @@
             </section>
         </div>
     </footer>
+    <script src="../main.js"></script>
 </body>
 </html>

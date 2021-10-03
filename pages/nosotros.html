@@ -11,31 +11,30 @@
     <title>Patitas en accion | Nosotros</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-container">
-            <a href="../index.html" class="logo">
-                <img src="../images/index-img/logo.png">
+        <header>
+            <a href="../index.html">
+                <img class="logo" src="../images/index-img/logo.png" alt="logo">
             </a>
-            <ul class="nav-ul">
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="adopta.html">Adoptá</a></li>
                 <li><a href="dona.html">Donaciones</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
-        </nav>
-    </header>
+        </header>
 
     <main>
-        <section class="banner-container">
-            <div class="banner-content">
+        <section class="banner__container">
+            <div class="banner__content">
                 <h2>Cambiarles la vida esta en <span>Nosotros</span></h2>
                 </div>
             </section>
 
-            <section class="news-container">
+            <section class="news__container">
                 <!-- Team section | CSS reused -->
-                <div class="title-news">
+                <div class="title--news">
                     <h2>Conoce a nuestro equipo</h2>
                     <p>
                         Desde Patitas en acción estamos decididos a hacer, de este mundo, un lugar
@@ -43,48 +42,49 @@
                     </p>
                 </div>
     
-                <div class="content-news" data-aos="fade-right" data-aos-delay="50"> <!--Box 1-->
-                    <div class="box-news">
-                        <div class="img-box">
+                <div class="content--news" data-aos="fade-right" data-aos-delay="50"> <!--Box 1-->
+                    <div class="box--news">
+                        <div class="img--box">
                             <img src="../images/team/1.jpg">
                         </div>
-                        <div class="img-content">
+                        <div class="img--content">
                             <p>Gleen Rhee</p>
                         </div>
                     </div>
                 </div>
-                <div class="content-news" data-aos="fade-right" data-aos-delay="100"> <!--Box 2-->
-                    <div class="box-news">
-                        <div class="img-box">
+                <div class="content--news" data-aos="fade-right" data-aos-delay="100"> <!--Box 2-->
+                    <div class="box--news">
+                        <div class="img--box">
                             <img src="../images/team/2.jpg">
                         </div>
-                        <div class="img-content">
+                        <div class="img--content">
                             <p>Mariana Gomez</p>
                         </div>
                     </div>
                 </div>
-                <div class="content-news" data-aos="fade-right" data-aos-delay="200"> <!--Box 3-->
-                    <div class="box-news">
-                        <div class="img-box">
+                <div class="content--news" data-aos="fade-right" data-aos-delay="200"> <!--Box 3-->
+                    <div class="box--news">
+                        <div class="img--box">
                             <img src="../images/team/3.jpg">
                         </div>
-                        <div class="img-content">
+                        <div class="img--content">
                             <p>Harley Queen</p>
                         </div>
                     </div>
                 </div>
-                <div class="content-news" data-aos="fade-right" data-aos-delay="300"> <!--Box 4-->
-                    <div class="box-news">
-                        <div class="img-box">
+                <div class="content--news" data-aos="fade-right" data-aos-delay="300"> <!--Box 4-->
+                    <div class="box--news">
+                        <div class="img--box">
                             <img src="../images/team/4.jpg">
                         </div>
-                        <div class="img-content">
+                        <div class="img--content">
                             <p>Pedro Barbosa</p>
                         </div>
                     </div>
                 </div>
+            </section>
         </main>
-...
+
     <footer>
         <div class="container-footer">
             <section class="footer-title">
@@ -103,6 +103,7 @@
             </section>
         </div>
     </footer>
+    <script src="../main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

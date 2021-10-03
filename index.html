@@ -10,34 +10,27 @@
     <title>Patitas en accion | Inicio</title>
 </head>
 <body>
-
+    <section class="banner">
+        <div class="text">
+            <h2>Patitas en accion</h2>
+        </div>
+    </section>
+    
     <header>
-        <!--Nav bar | Fixed -->
-        <nav class="nav-container">
-            <a href="index.html" class="logo">
-                <img src="./images/index-img/logo.png">
-            </a>
-            <ul class="nav-ul">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/adopta.html">Adoptá</a></li>
-                <li><a href="./pages/dona.html">Donaciones</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <a href="index.html">
+            <img class="logo" src="./images/index-img/logo.png" alt="logo">
+        </a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li><a href="./pages/adopta.html">Adoptá</a></li>
+            <li><a href="./pages/dona.html">Donaciones</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
     </header>
-
-    <main>
-        <section class="hero-img"> <!--Hero image 100vh-->
-            <div class="main-content">
-                <h1>Patitas en acción</h1>
-                <p>Adoptá y salva una vida</p>
-            </div>
-        </section>    
-    </main>
-
-        <footer>
-            <!--Footer | Sticky-->
+        
+      <footer>
             <div class="container-footer">
                 <section class="footer-title">
                     <p>Patitas en acción!</p>
@@ -54,6 +47,7 @@
                     </a>
                 </section>
             </div>
-        </footer>
+        </footer> 
+        <script src="main.js"></script>
 </body>
 </html>
