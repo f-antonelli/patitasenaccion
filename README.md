@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Federico Antonelli</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on [abandoned pet website](https://f-antonelli.github.io/patitasenaccion/)
+- 🔭 I’m currently working on [abandoned pet website](https://f-antonelli.github.io/patitasenaccion/) . This website is about rescued animals from the streets. They don't have any place to live so this refuge, non-profit, give to them food and shelter, and when a family wants to adopt any animal, they make sure that this animals have a good life.
 
 - 🌱 I’m currently learning **JavaScript, React JS**
 
